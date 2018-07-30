@@ -130,7 +130,7 @@
 <!--=================================
 page-title-->
 
-<section class="page-title bg-overlay-black-60 parallax" data-jarallax='{"speed": 0.6}' style="background-image: url(images/services/bg-02.png);">
+<section class="page-title bg-overlay-black-60 parallax" data-jarallax='{"speed": 0.6}' style="background-image: url(images/studentsprogram/banner-02.png);">
   <div class="container">
     <div class="row"> 
       <div class="col-lg-12"> 
@@ -157,8 +157,56 @@ page-title -->
               <p>Therefore, we decided to offer on-job real time experience only on the live projects we are currently working on floor to all the IT graduates and above who are in their FINAL YEAR. This Program will be certified for supporting both your Academic requirements and Professional career and individuals will be recommended further.</p>
               
           </div>
-          
+        </div>  
         </div>
+        <div class="container">
+        <div class="col-lg-12 col-md-12">
+          <div style="display: flex; padding-top: 20px; justify-content: center;">
+          <img src="images/studentsprogram/02.png"></div>
+        </div>
+        <div class="col-lg-12 col-md-12">
+            <form class="form-horizontal" id="student-form" role="form" method="post" action="php/student-form.php">
+            <div class="student-form">
+             <h3 style="text-align: center;">Apply for Position</h3>
+               <div class="section-field mb-20 mt-20 ">
+                <label for="name" aria-required="true">Your Name*</label>
+                 <div class="field-widget">
+                   <input type="text" class="form-control" id="name" placeholder="Your Name" name="name" required>
+                 </div>  
+               </div>
+               <div class="section-field mb-20">
+                <label>Your Email*</label>
+                 <div class="field-widget">
+                   <input type="text" class="form-control" placeholder="Your Email" name="email" required>
+                 </div>  
+               </div>
+               <div class="section-field mb-20">
+                <label for="website">Your Mobile*</label>
+                 <div class="field-widget">
+                   <input type="text" class="form-control" placeholder="Your Mobile" name="mobileno" required>
+                 </div>  
+                </div>
+               
+                 <div class="mb-20">
+                    <div class="file-input">
+                       <label for="exampleInputFile">Submit your Resume</label>
+                       <input type="file" class="form-control-file  form-control" id="exampleInputFile">
+                 </div>  
+                 </div>
+                 <div class="section-field mb-20">
+                    <label for="Message">What do you want to do?*</label>
+                     <div class="field-widget">
+                      <textarea class="input-message form-control" id="Message" placeholder="A brief about what are your areas of interest and your expectations from this program." rows="7" name="message"></textarea>
+                      </div>
+                     </div>  
+                   <a class="button-border button" href="#">
+                 <span>Submit</span>
+               </a>
+              </form>
+              <div id="ajaxloader" style="display:none"><img class="center-block mt-30 mb-30" src="images/pre-loader/loader-02.svg" alt=""></div> 
+          
+              </div>
+            </div>
      </div>
      
 </section>
