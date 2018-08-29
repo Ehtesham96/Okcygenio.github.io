@@ -1747,6 +1747,30 @@ img#logo-footer{ height: 50px; width: auto; }
 .blog-banner { height: 70vh; }
 .blog-banner span { letter-spacing: 4px; margin-bottom: 20px; display: block; }
 
+/*Blog Table */
+#blogtable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#blogtable td, #blogtable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#blogtable tr:nth-child(even){background-color: #d6cece;}
+
+#blogtable tr:hover {background-color: #ddd;}
+
+#blogtable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #24acc9;
+    color: white;
+}
+
 /*blog 02*/
 .blog-overlay { position: relative; height: 100%; text-align: left; z-index: 2; transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; }
 .blog-overlay:before { position: absolute; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.3); content: ""; left: 0; right: 0; z-index: 1; }
@@ -1943,6 +1967,7 @@ body.frame-layout .christmas-coming-soon { position: absolute; }
  .mega-menu > section.menu-list-items .search-cart .search { float: none !important; }
  .search-cart .shpping-cart { vertical-align: middle; }
 }  
+
 
 
 
